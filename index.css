@@ -1,0 +1,39 @@
+body {
+    background-image: url("img/fundo.jpg");
+    color: blue;
+}
+
+.div_buttons {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.div_buttons button {
+    background-color: #e53935;
+    margin: 20px;
+}
+
+.div_buttons h1 {
+    font-size: 2rem !important;
+}
+
+.div_buttons img {
+    width: 250px;
+    height: 220px;
+    border-radius:50%;
+}
+
+.div_characters{
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 20px;
+    margin:10px;
+    border-top: 1px #ccc solid;
+}
